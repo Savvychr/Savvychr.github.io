@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Rika's Fundraisng Association</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <style>
+ 
+ 
+  body {
+      font: 400 15px  'Kalam', cursive;;
+      line-height: 1.8;
+      color: #818181;
+      	background: url("https://i.pinimg.com/236x/35/30/99/353099ae9901bc8681013203d8175371--purple-aesthetic-blue-balloons.jpg");
+	background-size: 100% 10%;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron {
+      background-color: #ADD8E6;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: 'Satisfy', cursive;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      /*background-color: #f6f6f6;*/
+  }
+  .logo-small {
+      color: #FC3;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #FC3;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #FC3;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #ADD8E6; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #FC3;
+      background-color: #fff !important;
+      color: #FC3;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #FC3 !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #FC3;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #ADD8E6;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: 'Kalam', cursive;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #ffff00 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #FC3;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+      color:#FC3;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+	}
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Mystic Messenger</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>RFA</h1> 
+  <p>Rika's Fundraising Association</p> 
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger email">Attend</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Fundraiser</h2><br>
+      <h4>RFA, short for Rika's Fundraising Association, is an organization started by Rika and Jihyun to raise money by fundraising through the hosting of parties.  After Rika(Former Host) passed away we decided to take a year long break. But now with our new leader MC, we are now accepting guest!!! We invite all international guest and businesses to help  sponser our funding charities. Please contact MCPARTY@gmail.com to make a request. </p>
+      <br><button class="btn btn-default btn-lg touch">Get in Touch</button>
+    </div>
+    <div class="col-sm-4">
+      <span class="logo"><img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/b/bf/Common53.jpg/revision/latest?cb=20160921000147"width="500" height="500"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class=" logo "><img src="https://i.pinimg.com/736x/10/48/3e/10483ecee70e29629d7aaa41b5175aa0--mistyc-messenger-mystic-messenger-jaehee.jpg"width="400" height="400"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MISSION:</strong> Our mission is to help our Charites and fund them. We give guest food and a fun time just for a couple dollars for the Charities. We have Auctions and Host to collect money for Mint Eyes, Computer Avise and Loving Paws. </h4><br>
+      <p><strong>VISION:</strong>As a Fundraising Association we plan to fund our supporting Charities to help them develop and thrive. We allow permanent sponsers and make sure each customer is happy with donating. </p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYv4j-qswuSzuRvH0OIw1_FSQbJNwbFxyi2w2Vz6TV0_BwGgj4">
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-user logo-small"></span>
+      <h4>HOST</h4>
+      <p>Each Host has a different qualities and care</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>We give all guest a welcome greeting</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>85% of profit goes to Charities</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-music logo-small"></span>
+      <h4>ENTERTIANMENT</h4>
+      <p>WE provide drinks,chats and performances</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Top 5 Party Assocations In Korea</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">HARD WORK</h4>
+      <p>We make sure all guest are the belle of the ball</p>
+    </div>
+  </div>
+</div>
+  
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Groups</h2><br>
+  <h4>The party's host</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR509mvwngLYmuZ-RDeBCCJyWPqYqgM-JAsyPb-BURGYGfjVAWt" alt="T1" width="400" height="300">
+        <p><strong>A table with Jumin and Jaehee</strong></p>
+        <p>Discuss Business and Company Loyality</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ2RNwi-2oXZhERZe2rrxN8PI7TvM67N6l9EOJci944LciGCgg" alt="T2" width="400" height="300">
+        <p><strong>A table with Yoosung and Zen</strong></p>
+        <p>Discuss Compassion and Social Media</p>
+      </div>
+    </div>
+	  <div class="row text-center slideanim">
+	    <div class="col-sm-4">
+	      <div class="thumbnail">
+	        <img src="https://i.pinimg.com/originals/02/86/de/0286def5ff824893f9cb063abf16e194.png" alt="T3" width="400" height="300">
+	        <p><strong>A table with MC and Jihyun</strong></p>
+	        <p>Discuss Communication and Relationships</p>
+	      </div>
+	    </div>
+	<div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://data.whicdn.com/images/300511387/large.jpg" alt="T4" width="400" height="300">
+        <p><strong>A table with Saeran and Saeyoung</strong></p>
+        <p>Discuss Focus and Programing</p>
+      </div>
+    </div>
+  </div><br>
+  
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+			<img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/d/db/Bracelet_sprite.png/revision/latest/scale-to-width-down/180?cb=20160914102734" alt="T1" width="200" height="200">    
+		<h4>"I found many unique jewelry to trade!!!"<br><span>Luna The Lady of Bracelets (@bracelet),The legendary lady who became a billionaire by selling bracelets.  Saeyoung: Jaehee's amazing. She's not exactly the person I was thinking about, but she seems fun, so yes!!
+ </span></h4>
+      </div>
+      <div class="item">
+        <img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/6/6c/Longcat.png/revision/latest/scale-to-width-down/180?cb=20161023185523" alt="T1" width="200" height="200">
+		<h4>"Meowmeow,Miumiumi! Nyannyan!"<br><span>Longcat (@longcat),The cat who has the longest torso in the world. Jumin: I heard it was really hard exchanging emails with him. Still you succeeded... so you must be able to talk with cats. Thank you for giving me the chance to meet Longcat.  </span></h4>
+      </div>
+      <div class="item">
+		   <img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/9/99/Emotion.png/revision/latest/scale-to-width-down/180?cb=20170917145226" alt="T1" width="200" height="200">
+        <h4>"I helped many people handle their emotions. It's outstanding"<br><span>Cry Only (@emotion),A phone customer service representative who can deal with any client, as if wearing a mask. Jumin: I feel like you invited him to teach me emotions, but you called someone who's masted their emotions? I think we'll actually get along very well.</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Pricing</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>One time event</h1>
+		    <img src="https://em.wattpad.com/a100692e38ec042b0ed222445faecd536c7ef48e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5443677454586b6e4a5059332d513d3d2d3338343235373536302e313461623333356533396239316237323936393634313231353030322e676966" alt="T1" width="200" height="200">     
+		</div>
+        <div class="panel-body">
+          <p><strong>1</strong> Avalible seating with two Host</p>
+          <p><strong>1</strong>Options to Sponser</p>
+          <p><strong>1</strong> Signature from Zen</p>
+          <p><strong>2</strong> Picture with Host</p>
+          <p><strong>Endless</strong>Food</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$40</h3>
+          <h4>per party</h4>
+          <button class="btn btn-lg signup">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Regular Guest</h1>
+		     <img src="https://mmtranscripts.files.wordpress.com/2016/11/happy-zen1.gif" alt="T1" width="200" height="200">    
+        </div>
+        <div class="panel-body">
+          <p><strong>3</strong>Avalible seating with two Host</p>
+          <p><strong>2</strong>Options to Sponser</p>
+          <p><strong>1</strong>Shoutout from Jumin's Company</p>
+          <p><strong>4 </strong>Pictures with Host</p>
+          <p><strong>Endless</strong>Food</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$20</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg signup">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>VIP</h1>
+		     <img src="https://78.media.tumblr.com/faf4dd803a1e2bc0a897b1f1637665e9/tumblr_inline_oda103jxtK1u7co0t_250.gif" alt="T1" width="200" height="200">    
+        </div>
+        <div class="panel-body">
+          <p><strong>4</strong>Avalible seating with two Host</p>
+          <p><strong>3</strong> Options to Sponser</p>
+          <p><strong>1</strong>Monthly Magzine</p>
+          <p><strong>8</strong>Pictures with Host</p>
+          <p><strong>Endless</strong>Food</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$50</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg signup">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">JUMIN MAG</div>
+        <div class="panel-body"><img src="https://orig00.deviantart.net/a12e/f/2016/327/6/b/6b3a2e3aa90a2f3c36d8551fafdbdd43-dapdlkr.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">ZEN MAG</div>
+        <div class="panel-body"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAvyzUwmj99zBaO-0dQqPvlFC8tw2WGtFfy2i2fkqWu09px9tT" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">YOOSUNG MAG</div>
+        <div class="panel-body"><img src="https://orig00.deviantart.net/7bbe/f/2016/327/e/1/rfa_magazine_mockup___yoosung_by_myetie-dapdkra.jpg" class="img-responsive" style="width:100%" alt="Image"></div> 
+		<div class="panel-footer"></div>     
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">707 MAG</div>
+        <div class="panel-body"><img src="https://orig00.deviantart.net/6c34/f/2016/327/3/e/3edd75edfaab294831d86fc624578ff9-dapdkza.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+		<div class="panel-footer"></div>
+     </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">MC MAG</div>
+        <div class="panel-body"><img src="https://orig00.deviantart.net/a983/f/2016/327/9/6/rfa_magazine_mockup___mc_by_myetie-dapdkd5.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+		<div class="panel-footer"></div>      
+      </div>
+    </div>
+   <div class="col-sm-4"> 
+     <div class="panel panel-primary">
+       <div class="panel-heading">VIP ONLY</div>
+       <div class="panel-body"><img src="https://78.media.tumblr.com/e2afbc810ae4e89ea9a6fb2435f092a0/tumblr_inline_odfx2nWkbR1tul0nx_1280.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+	<div class="panel-footer"></div>      
+     </div>
+   </div>
+    </div>
+   </div>
+   <div class="col-sm-4"> 
+     <div class="panel panel-primary">
+       <div class="panel-heading">VIP ONLY</div>
+       <div class="panel-body"><img src="https://i0.wp.com/cactusmilk.net/wp-content/uploads/2016/07/28014359572_9077fb97b3_o_COPY-1.jpg?resize=680%2C510" class="img-responsive" style="width:100%" alt="Image"></div>
+	<div class="panel-footer"></div>
+  </div>
+</div><br><br>
+
+
+
+
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Busan, South Korea</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>savannahlawrence@jamaicagateway.net</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Request" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right request" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<div class="container text-center">    
+  <h3>Our Charities</h3>
+  <br>
+  <div class="container text-center">
+    <div class="col-sm-2">
+      <img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/9/96/Common_12.png/revision/latest?cb=20161009035632" class="img-responsive" style="width:90%" alt="Image">
+      <p>Loving Paw</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/7/70/MysteriousM-62.png/revision/latest?cb=20160916161825" class="img-responsive" style="width:100%" alt="Image">
+      <p>Mint Eyes</p>    
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://i2-prod.mirror.co.uk/incoming/article6013639.ece/ALTERNATES/s615/MAIN-Computer-hacking.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Computer Avise</p>
+    </div>
+    </div> 
+  </div>
+</div><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MkMRzbB0Xlk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div> 
+  </div>
+</div><br>
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+  <script>
+      $(".touch").on("click", function() {
+        alert("thank you, Our Host will be alerted about your request");
+      });
+  </script>
+  <script>
+      $(".signup").on("click", function() {
+        alert("Please entire credit card number below.");
+      });
+   </script>
+   <script>
+       $(".email").on("click", function() {
+         alert("Sent! Please wait for response.");
+       });
+ </script>
+   <script>
+       $(".request").on("click", function() {
+         alert("Sent! Please wait for response.");
+       });
+ </script>
+  
+</script>
+</script>
+
+</body>
+</html>
