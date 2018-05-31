@@ -445,24 +445,24 @@
     </div>    
   </div>
 </div>
-<div class="container">    
+<div class="container">   
+	 
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">JUMIN MAG</div>
         <div class="panel-body"><img src="https://orig00.deviantart.net/a12e/f/2016/327/6/b/6b3a2e3aa90a2f3c36d8551fafdbdd43-dapdlkr.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"></div>
+              <div class="panel-footer"></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
         <div class="panel-heading">ZEN MAG</div>
         <div class="panel-body"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAvyzUwmj99zBaO-0dQqPvlFC8tw2WGtFfy2i2fkqWu09px9tT" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"></div>
+              <div class="panel-footer"></div>
       </div>
     </div>
-<div class="container">    
-  <div class="row">
+
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">YOOSUNG MAG</div>
@@ -470,38 +470,74 @@
 		<div class="panel-footer"></div>     
       </div>
     </div>
+   </div>
+
+   <div class="row">
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
         <div class="panel-heading">707 MAG</div>
         <div class="panel-body"><img src="https://orig00.deviantart.net/6c34/f/2016/327/3/e/3edd75edfaab294831d86fc624578ff9-dapdkza.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-		<div class="panel-footer"></div>
+	      <div class="panel-footer"></div>
+     </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">JAEHEE MAG</div>
+        <div class="panel-body"><img src="https://s-media-cache-ak0.pinimg.com/originals/3c/11/e2/3c11e2c82c5dd5628a65e8ac4476a2c2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+	      <div class="panel-footer"></div>
      </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
         <div class="panel-heading">MC MAG</div>
         <div class="panel-body"><img src="https://orig00.deviantart.net/a983/f/2016/327/9/6/rfa_magazine_mockup___mc_by_myetie-dapdkd5.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+	       <div class="panel-footer"></div>      
+      </div>
+    </div>
+   </div>
+   
+   <div class="row">
+	   
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">JUMIN VAL MAG</div>
+        <div class="panel-body"><img src="https://pm1.narvii.com/6373/f5e1d0d4272d17a1f444f65c35b54ef9bbd8ad83_hq.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
 		<div class="panel-footer"></div>      
       </div>
     </div>
+	
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">ZEN VAL MAG</div>
+        <div class="panel-body"><img src="https://78.media.tumblr.com/d30cd524d085124b135f504f8033f51f/tumblr_olkl0ziPfQ1w135hao1_r1_1280.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+		<div class="panel-footer"></div>      
+      </div>
+    </div>
+	
    <div class="col-sm-4"> 
      <div class="panel panel-primary">
        <div class="panel-heading">VIP ONLY</div>
        <div class="panel-body"><img src="https://78.media.tumblr.com/e2afbc810ae4e89ea9a6fb2435f092a0/tumblr_inline_odfx2nWkbR1tul0nx_1280.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-	<div class="panel-footer"></div>      
+	      <div class="panel-footer"></div>      
      </div>
    </div>
     </div>
-   </div>
+	
+ <div class="row">
+	 
+	 
    <div class="col-sm-4"> 
      <div class="panel panel-primary">
        <div class="panel-heading">VIP ONLY</div>
        <div class="panel-body"><img src="https://i0.wp.com/cactusmilk.net/wp-content/uploads/2016/07/28014359572_9077fb97b3_o_COPY-1.jpg?resize=680%2C510" class="img-responsive" style="width:100%" alt="Image"></div>
 	<div class="panel-footer"></div>
   </div>
-</div><br><br>
+</div>
 
 
+</div>
+</div>
+<br><br>
 
 
 
