@@ -222,11 +222,6 @@
 <div class="jumbotron text-center">
   <h1>RFA</h1> 
   <p>Rika's Fundraising Association</p> 
-  <form>
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger email">Attend</button>
       </div>
     </div>
   </form>
