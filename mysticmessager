@@ -617,13 +617,13 @@ return false; }
 <table border="0" cellpadding="5" cellspacing="0" maxwidth="600">
 <tr>
 <td><b>Name*:</b></td>
-<td><input name="Name" type="text" maxlength="60" style="maxwidth:350px;" /></td>
+<td><input name="Name" type="text" maxlength="40" style="maxwidth:350px;" /></td>
 </tr><tr>
 <td><b>Phone number:</b></td>
 <td><input name="PhoneNumber" type="text" maxlength="43" style="maxwidth:350px;" /></td>
 </tr><tr>
 <td><b>Email address*:</b></td>
-<td><input name="FromEmailAddress" type="text" maxlength="20" style="maxwidth:350px;" /></td>
+<td><input name="FromEmailAddress" type="text" maxlength="60" style="maxwidth:350px;" /></td>
 </tr><tr>
 <td><b>Comments and questions*:</b></td>
 <td><textarea name="Comments" rows="7" cols="40" style="maxwidth:350px;"></textarea></td>
