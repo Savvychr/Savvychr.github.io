@@ -241,7 +241,7 @@
       <br><button class="btn btn-default btn-lg touch">Get in Touch</button>
     </div>
     <div class="col-sm-4">
-      <span class="logo"><img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/b/bf/Common53.jpg/revision/latest?cb=20160921000147"width="500" height="500"></span>
+      <span class="logo"><img src="https://vignette.wikia.nocookie.net/mystic-messenger/images/b/bf/Common53.jpg/revision/latest?cb=20160921000147"width="300" height="300"></span>
     </div>
   </div>
 </div>
@@ -249,7 +249,7 @@
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <span class=" logo "><img src="https://i.pinimg.com/736x/10/48/3e/10483ecee70e29629d7aaa41b5175aa0--mistyc-messenger-mystic-messenger-jaehee.jpg"width="400" height="400"></span>
+      <span class=" logo "><img src="https://i.pinimg.com/736x/10/48/3e/10483ecee70e29629d7aaa41b5175aa0--mistyc-messenger-mystic-messenger-jaehee.jpg"width="300" height="300"></span>
     </div>
     <div class="col-sm-8">
       <h2>Our Values</h2><br>
@@ -589,7 +589,7 @@ return false; }
 <td><input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" /></td>
 </tr><tr>
 <td><b>Comments and questions*:</b></td>
-<td><textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea></td>
+<td><textarea name="Comments" rows="7" cols="20" style="width:350px;"></textarea></td>
 </tr><tr>
 <td colspan="2" align="center"> <br />
 <table border="0" cellpadding="0" cellspacing="0">
@@ -632,7 +632,7 @@ src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=3MBREDU8FY5S&ImgType=2
     </div> 
   </div>
 </div><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MkMRzbB0Xlk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/MkMRzbB0Xlk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div> 
   </div>
 </div><br>
