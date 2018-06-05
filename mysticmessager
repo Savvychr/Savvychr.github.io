@@ -575,7 +575,7 @@ return false; }
 <table border="0" cellpadding="5" cellspacing="0" max-width="600">
 <tr>
 <td><b>Name*:</b></td>
-<td><input name="Name" type="text" maxlength="60" style="max-width:350px;" /></td>
+<td><input name="Name" type="text" maxlength="40" style="max-width:350px;" /></td>
 </tr><tr>
 <td><b>Phone number:</b></td>
 <td><input name="PhoneNumber" type="text" maxlength="43" style="max-width:350px;" /></td>
